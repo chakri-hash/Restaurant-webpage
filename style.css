@@ -131,6 +131,9 @@ p{
 .im > img:hover {
     transform: scale(1.1);
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .i1{
     display: flex;
     flex-direction: column;
@@ -203,6 +206,9 @@ p{
     ul li a:hover{
         background-color:rgb(252, 248, 248);
         color:rgb(10, 0, 0);
+    }
+    ::-webkit-scrollbar {
+        display: none;
     }
     ul li.active a{
         background-color: rgb(247, 244, 244);
