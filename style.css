@@ -97,10 +97,14 @@ nav{
 }
 h3{
     color: white;
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Balsamiq Sans', cursive;
     margin-top: 10px;
     text-decoration: underline;
+
+}
+.down h3{
+    text-align: center;
 }
 .first img{
     height: 280px;
@@ -228,6 +232,14 @@ p{
     nav a{
         color: white;
     }
+    .down h3{
+        color: white;
+        /*text-align: center;*/
+        font-family: 'Balsamiq Sans', cursive;
+        margin-top: 10px;
+        margin-left: 10px;
+        text-decoration: underline;
+    }
     
     
     ul li a{
@@ -261,5 +273,4 @@ p{
     .i6{
         margin: 10px; 
     }
-
 }
